@@ -1,0 +1,39 @@
+<?php
+namespace FT\CarnetBundle\Entity;
+use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
+/**
+ * @ORM\Entity
+ */
+ 
+Class Utilisateurs
+{
+    /**
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     */
+    private $id;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $nom;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $prenom;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $mail;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $nom_user;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $mdp;
+}
+?>

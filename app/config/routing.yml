@@ -1,0 +1,11 @@
+ft_user:
+    resource: "@FTUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ft_carnet:
+    resource: "@FTCarnetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

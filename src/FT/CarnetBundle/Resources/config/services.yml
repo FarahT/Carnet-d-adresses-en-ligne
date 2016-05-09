@@ -1,0 +1,4 @@
+services:
+#    ft_carnet.example:
+#        class: FT\CarnetBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
